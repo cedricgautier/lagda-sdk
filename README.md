@@ -1,4 +1,4 @@
-# lagda-sdks
+# lagda-sdk
 
 The agent SDKs for lagda: the packages your agent code imports to put lagda's gate in front of its tool calls. Starts with `@lagda/claude-agent-sdk`, the Claude Agent SDK adapter (TypeScript + Python) that reads the `.mcp.json` server list, hashes it against `mcp.lock` and hides or blocks tools that are not approved.
 
